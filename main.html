@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MOUNSTROS</title>
+  </head>
+  <body>
+    <br>
+    <br>
+
+    <!-- section para agregar pokemon -->
+    <section id="agregarPokemon" style="text-align="center"">
+      <form id="nuevoPokemon" >
+      nombre<input type="text" id="nombre" >
+      color <input type="text" id="color">
+      nivel de amistad <input type="text " id="amistad">
+      puntos ataque <input type="text" id="ataque">
+
+      </form>
+      <br>
+      <br>
+      <button onclick="insertaPokemon();">ENVIAR</button>
+      <!-- Creamos una lista para ver los pokemos que hemos registrado -->
+
+    </section>
+    <br>
+    <br>
+    <!-- Seccion para mostrar la lista de los pokemon -->
+    <section id="lista">
+
+    </section>
+    <!-- Section para ponerlo a pelear -->
+    <section id="pelar">
+      <!-- Donde vamos a ir insertando los elementos -->
+      <select id="elementos">
+
+      </select>
+      <button  onclick="pelea();">PELEA</button>
+      <select id="elementos2">
+      <select>
+    </section>
+    <!-- Section para estado de la pelea -->
+    <section id="resultados">
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
